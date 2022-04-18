@@ -7,7 +7,7 @@ function g=fresnelas(f)
     %     of rows and columns of f are both M , this function always
     %     think that the origin of the coordinates is at the center
     %     pixel of the calculation window
-    %                       (floor(M/2)+1,floor(N/2)+1)
+    %                       (floor(M/2)+1,floor(M/2)+1)
     %   g stands for the matrix of the Fresnel diffraction light field on
     %     the observation screen, the same size as f, the origin of the
     %     coordinate is also at the center pixel of the matrix
